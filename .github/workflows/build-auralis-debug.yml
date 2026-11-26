@@ -34,7 +34,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build debug APK
-        run: ./gradlew :app:assembleFossDebug
+        run: ./gradlew :app:assembleUniversalFossDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
